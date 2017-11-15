@@ -23,7 +23,7 @@
         <property name="poolPreparedStatements" value="false"/>
         <property name="maxPoolPreparedStatementPerConnectionSize" value="-1"/>
         <!-- 配置监控统计拦截的filters -->
-        <property name="filters" value="wall,mergeStat"/>
+        <!--<property name="filters" value="wall,mergeStat"/>-->
     </bean>
     <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"/>
