@@ -19,4 +19,8 @@ public class Organization implements Serializable {
     public String makeSelfAsParentIds() {
         return getParentIds() + getId() + "/";
     }
+
+    public boolean isRootNode() {
+        return parentId == 0;
+    }
 }
