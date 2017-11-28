@@ -17,5 +17,6 @@
   <modules>
     <module>sso-cas-server</module>
     <module>sso-cas-client</module>
+    <module>upms-example</module>
   </modules>
 </project>
